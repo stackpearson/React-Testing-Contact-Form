@@ -18,6 +18,7 @@ const ContactForm = () => {
           <input
             name="firstName"
             placeholder="Edd"
+            aria-label='first-name'
             ref={register({ required: true, maxLength: 3 })}
           />
           {errors.firstName && (
